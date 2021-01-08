@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/azev77"
+  github           : azev77
   google_plus      :
   keybase          :
   instagram        :
@@ -106,10 +106,10 @@ author:
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : https://economics.stackexchange.com/users/31117/albert-zevelev  # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://economics.stackexchange.com/users/31117/albert-zevelev"  # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/AlexZevelev"
+  twitter          : AlexZevelev
   vine             :
   weibo            :
   xing             :
