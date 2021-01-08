@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Albert Alex Zevelev"
   avatar           : "profile.png"
-  bio              : "Assistant Professor, Zicklin School of Business, Baruch College, CUNY"
+  bio              : "Assistant Professor,"\n "Zicklin School of Business, Baruch College, CUNY"
   location         : "New York, New York"
-  employer         : Zicklin School of Business, Baruch College, CUNY
+  employer         : # Zicklin School of Business, Baruch College, CUNY
   pubmed           :   
   googlescholar    : "https://scholar.google.com/citations?user=MsNmpSQAAAAJ&hl=en&oi=ao"
   email            :  # 
