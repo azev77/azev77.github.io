@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Albert Alex Zevelev"
 description              : &description "Assistant Professor, Zicklin School of Business"
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  SSRN             : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609
 
 
 # Reading Files
