@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Albert Alex Zevelev"
   avatar           : "profile.png"
-  bio              : "Assistant Professor, Zicklin School of Business"
+  bio              : "Assistant Professor, Zicklin School of Business, Baruch College, CUNY"
   location         : "New York, New York"
-  employer         :
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : Zicklin School of Business, Baruch College, CUNY
+  pubmed           :   
   googlescholar    : "https://scholar.google.com/citations?user=MsNmpSQAAAAJ&hl=en&oi=ao"
-  email            :
+  email            :  # 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : albert-alex-zevelev-7598544/
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : https://orcid.org/0000-0001-5294-655X  # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : 12538897/albert-zevelev #"https://economics.stackexchange.com/users/31117/albert-zevelev"
