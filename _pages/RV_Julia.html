@@ -14,7 +14,13 @@ $X \sim N\left(\mu, \sigma^2 \right)$
 
 <!-- AZ: Sample code -->
 <xmp>
-   ...code...
+   julia> m = @model σ begin
+           μ ~ StudentT(3.0)
+           x ~ Normal(μ, σ) |> iid(1000)
+           return x
+       end;
+
+julia> x = rand(m(σ=2.0));
 </xmp>
 
 <p>One of the great things about the Julia programming language is that it is very
