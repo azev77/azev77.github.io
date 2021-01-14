@@ -58,63 +58,12 @@ easy to manage the dependencies of your project. In short, two files
 versions are required by your scripts. You can find out how it works in detail
 <a href="https://docs.julialang.org/en/v1/stdlib/Pkg/">in the Julia manual</a>.</p>
 
-<p>What I describe in this post was tested under Julia 1.4.1.</p>
-
-<p>If not specified otherwise, Julia is started in a default (global) environment.
-Here is a quick example. Start a new Julia session and press <code class="language-plaintext highlighter-rouge">]</code> to switch to
-package manager mode. You will see the following scrren</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~$ julia
-               _
-   _       _ _(_)_     |  Documentation: https://docs.julialang.org
-  (_)     | (_) (_)    |
-   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
-  | | | | | | |/ _` |  |
-  | | |_| | | | (_| |  |  Version 1.4.1 (2020-04-14)
- _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
-|__/                   |
-
-(@v1.4) pkg&gt;
-</code></pre></div></div>
-
-<p>The <code class="language-plaintext highlighter-rouge">(@v1.4)</code> prefix tells you that you are in a default environment.</p>
-
-<p>You can switch to the project specific environment using two options:</p>
-
-<ul>
-  <li>the <code class="language-plaintext highlighter-rouge">activate</code> command from Julia package manager, or</li>
-  <li>by passing <code class="language-plaintext highlighter-rouge">--project</code> command line argument when starting Julia.</li>
-</ul>
 
 <p>For instance to activate the project environment in the current working
 directory use <code class="language-plaintext highlighter-rouge">.</code> as a path specifier and write either:</p>
 
 <figure class="highlight"><pre><code class="language-julia" data-lang="julia"><span class="x">(</span><span class="nd">@v1.4</span><span class="x">)</span> <span class="n">pkg</span><span class="o">&gt;</span> <span class="n">activate</span> <span class="o">.</span>
  <span class="n">Activating</span> <span class="n">new</span> <span class="n">environment</span> <span class="n">at</span> <span class="sb">`~/Project.toml`</span></code></pre></figure>
-
-<p>or start Julia with the following command <code class="language-plaintext highlighter-rouge">julia --project=.</code>.</p>
-
-<p>Also as a special case you can write <code class="language-plaintext highlighter-rouge">julia --project=@.</code> in which case Julia
-will be looking for files specifying the project files in the current directory
-or its parents, as described <a href="https://docs.julialang.org/en/v1/manual/environment-variables/index.html#JULIA_PROJECT-1">here</a>.</p>
-
-<p>All this functionality is very powerful and greatly simplifies reproducibility
-of my work. In particular on a single machine one can have many projects,
-and each of them can have different dependencies.</p>
-
-<h1 id="my-daily-workflow-with-project-environments">My daily workflow with project environments</h1>
-
-<p>I like the <code class="language-plaintext highlighter-rouge">Project.toml</code>/<code class="language-plaintext highlighter-rouge">Manifest.toml</code> combo very much and use it for every
-project I work on. There is one problem though — you have to remember to
-activate the project environment when you start Julia.</p>
-
-<p>If you use Jupyter Notebooks, the default Julia kernel that is installed by
-IJulia.jl automatically uses <code class="language-plaintext highlighter-rouge">--project=@.</code> flag when starting Julia,
-see <a href="https://github.com/JuliaLang/IJulia.jl#julia-projects">here</a>. So in this case everything works nice.</p>
-
-<p>However, my typical working setup is to use a classical text editor and
-a terminal where Julia (a.k.a Julia REPL) is run. A natural question is how can
-one easily get a similar functionality in this case.</p>
 
 <p>What I do is the following. In my <code class="language-plaintext highlighter-rouge">~/.julia/config/startup.jl</code> file
 I have added the following lines:</p>
@@ -123,18 +72,6 @@ I have added the following lines:</p>
 <span class="k">if</span> <span class="n">isfile</span><span class="x">(</span><span class="s">"Project.toml"</span><span class="x">)</span> <span class="o">&amp;&amp;</span> <span class="n">isfile</span><span class="x">(</span><span class="s">"Manifest.toml"</span><span class="x">)</span>
     <span class="n">Pkg</span><span class="o">.</span><span class="n">activate</span><span class="x">(</span><span class="s">"."</span><span class="x">)</span>
 <span class="k">end</span></code></pre></figure>
-
-<p>Now, every time I start my Julia REPL and the <em>current</em> working directory contains
-<code class="language-plaintext highlighter-rouge">Project.toml</code> and <code class="language-plaintext highlighter-rouge">Manifest.toml</code> files they will get activated.</p>
-
-<p>Note that I use <code class="language-plaintext highlighter-rouge">.</code> — I typically do not want Julia to look for the files
-in the parent directories.</p>
-
-<p>In rare cases when I want to disable this functionality I run <code class="language-plaintext highlighter-rouge">julia</code> with
-<code class="language-plaintext highlighter-rouge">--startup-file=no</code> flag to disable loading <code class="language-plaintext highlighter-rouge">~/.julia/config/startup.jl</code> file.</p>
-
-<p>If you have never used <code class="language-plaintext highlighter-rouge">startup.jl</code> file you can read a description how it works
-in <a href="https://docs.julialang.org/en/v1/manual/getting-started/">the Julia manual</a>.</p>
 
 
   </div><a class="u-url" href="/julialang/2020/05/10/julia-project-environments.html" hidden></a>
