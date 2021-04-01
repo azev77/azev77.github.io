@@ -10,12 +10,6 @@ author_profile: true
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!-- AZ: math-Latex -->
-\begin{tabular}{|l|l|l|}
-\hline
-Suppose the true model is: & $y_{i} = \beta_{0} + \beta_{xy} x_{i} + \beta_{zy} z_{i} + \nu_{i}$ &  \\ \hline
-                           &                                                                     &  \\ \hline
-                           &                                                                     &  \\ \hline
-\end{tabular}
 <br> <br>
 Suppose the true model is:
 $y_{i} = \beta_{0} + \beta_{xy} x_{i} + \beta_{zy} z_{i} + \nu_{i}$
@@ -25,5 +19,8 @@ $y_{i} = \beta_{0} + \beta_{xy} x_{i} + u_{i} \Rightarrow u_{i} = \beta_{zy} z_{
 <br>
 Suppose $x_{i}$ predicts $z_{i}$:
 $z_{i} = \delta_{xz} x_{i} + w_{i} \Rightarrow \delta_{xz} = \frac{\sigma_{xz}}{\sigma_{x}^2} = \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} $
+<br>
+Denote the OLS estimate (from equation 2) $\hat{\beta}_{xy}$. 
+We have: $E[\hat{\beta}_{xy}|x_{i}] = \beta_{xy} + \underbrace{\delta_{xz} \beta_{zy}}_{\text{bias}}$
 <br> <br>
 $X \sim N\left(\mu, \sigma^2 \right)$
