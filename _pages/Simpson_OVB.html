@@ -10,7 +10,10 @@ author_profile: true
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!-- AZ: math-Latex -->
-Suppose the true model is
-$y_{i} = \beta_{0} + \beta_{x}\times x_{i} + \beta_{z}\times z_{i} + \nu_{i}$
+Suppose the true model is:
+$y_{i} = \beta_{0} + \beta_{x} x_{i} + \beta_{z} z_{i} + \nu_{i}$
+<br>
+Suppose you omit $z_{i}$ and instead estimate:
+$y_{i} = \beta_{0} + \beta_{x} x_{i} + u_{i} \Rightarrow u_{i} = \beta_{z} z_{i} + \nu_{i} $
 <br>
 $X \sim N\left(\mu, \sigma^2 \right)$
