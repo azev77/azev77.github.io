@@ -13,4 +13,6 @@ at the [Zicklin School of Business](https://zicklin.baruch.cuny.edu/) at [Baruch
 <br> <br>
 He is an applied economist studying interactions between real estate markets, 
 financial markets, and the rest of the economy. 
+
+
 He holds a Bachelor's degree from Brandeis and a PhD from Wharton.
