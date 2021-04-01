@@ -17,6 +17,7 @@ at the [Zicklin School of Business](https://zicklin.baruch.cuny.edu/) at [Baruch
 * I received Doctorate from [Wharton](https://doctoral.wharton.upenn.edu/) in 2015 and a Bachelor's degree from [Brandeis](https://www.brandeis.edu/economics/people/index.html) in 2008.
 
 # News
-* March 8, 2021. 
-Our open-source utilities library *[confidential-ml-utils 0.8.1](https://github.com/Azure/confidential-ml-utils#:~:text=README.md-,Confidential%20ML%20Utilities,they%20provide%20to%20their%20customers.)* for training machine learning models without seeing training data in Azure is publicly available in github.
-* December 6, 2020. The Python library *[FLAML](https://github.com/microsoft/FLAML)* for fast and lightweight automated machine learning tookit has been released to public on *[PyPI](https://pypi.org/project/FLAML)*.
+* March 10, 2021. 
+My paper "Regulating Mortgage Leverage: Fire Sales, Foreclosure Spirals and Pecuniary Externalities" is forthcoming at JRER.
+* October 9, 2020. 
+My paper "Does Collateral Value Affect Asset Prices? Evidence from a Natural Experiment in Texas" is forthcoming at [RFS](https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaa117/5920333?redirectedFrom=fulltext).
