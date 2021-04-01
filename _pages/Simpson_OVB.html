@@ -11,9 +11,12 @@ author_profile: true
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!-- AZ: math-Latex -->
 Suppose the true model is:
-$y_{i} = \beta_{0} + \beta_{x} x_{i} + \beta_{z} z_{i} + \nu_{i}$
+$y_{i} = \beta_{0} + \beta_{xy} x_{i} + \beta_{zy} z_{i} + \nu_{i}$
 <br>
 Suppose you omit $z_{i}$ and instead estimate:
-$y_{i} = \beta_{0} + \beta_{x} x_{i} + u_{i} \Rightarrow u_{i} = \beta_{z} z_{i} + \nu_{i} $
+$y_{i} = \beta_{0} + \beta_{xy} x_{i} + u_{i} \Rightarrow u_{i} = \beta_{zy} z_{i} + \nu_{i} $
 <br>
+Suppose $x_{i}$ predicts $z_{i}$:
+$z_{i} = \delta_{xz} x_{i} + w_{i} \Rightarrow \delta_{xz} = \frac{\sigma_{xz}}{\sigma_{x}^2} = \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} $
+<br> <br>
 $X \sim N\left(\mu, \sigma^2 \right)$
