@@ -23,3 +23,5 @@ at [Baruch College](https://www.baruch.cuny.edu/).
 My paper "Regulating Mortgage Leverage: Fire Sales, Foreclosure Spirals and Pecuniary Externalities" is forthcoming at JRER.
 * October 9, 2020. 
 My paper "Does Collateral Value Affect Asset Prices? Evidence from a Natural Experiment in Texas" is forthcoming at [RFS](https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaa117/5920333?redirectedFrom=fulltext).
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fazev77.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
