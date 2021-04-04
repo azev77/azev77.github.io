@@ -11,7 +11,7 @@ author_profile: true
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!-- AZ: math-Latex -->
 <br> <br>
-The goal of this post is to illustrate a recent 
+The goal of this post is to illustrate a point made in a recent 
 <a href="https://twitter.com/AmitEcon/status/1368990015536119813?s=20">tweet</a>
 by 
 <a href="https://web.sas.upenn.edu/agandhi/">Amit Ghandi </a>
@@ -20,14 +20,22 @@ that Simpson's Paradox is a special case of omitted variable bias (OVB).
 <br> <br>
 I will use an example from 
 <a href="https://www.youtube.com/watch?v=t-Ci3FosqZs">How SIMPSON'S PARADOX explains weird COVID19 statistics</a>.
-This example is for illustrative purposes only (this post is about statistics, not COVID-19).
+(This example is for illustrative purposes only. This post is about statistics, not COVID-19).
 <br> 
 The video compares those diagnosed with COVID-19 in China and Italy between March and May 2020. 
 <br>
-<u>Outcome by country</u>: people infected with COVID-19 were more likely to survive in China than Italy 
+<u>Outcome by country</u>: people infected with COVID-19 were more likely to survive in China than Italy. 
 <br>
-<u>Outcome by country-age group</u>: at each age bracket, people infected with COVID-19 were more likely to survive in Italy than China
-
+<u>Outcome by country-age group</u>: at each age bracket, people infected with COVID-19 were more likely to survive in Italy than China.
+<br>
+Let's illustrate this with a simulation, but first summarize notation in the table below:
+\begin{array}{|l|l|l|}
+\hline
+  \text{Outcome: } Y_{i} & \text{Treatment: } X_{i} & \text{Confounder: } Z_{i}\\ 
+\hline
+   \mathbb{Z} & + & 0 \\
+\hline
+\end{array}
 
 
 <br> <br>
