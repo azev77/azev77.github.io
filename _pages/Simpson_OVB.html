@@ -51,8 +51,22 @@ Let's generate some artificial data.
 <!-- AZ: Sample code <br><br> -->
 <pre>
     <code style="display:block; white-space:pre-wrap; background-color: rgb(234,236,238); color: blue;">
-        using Distributions, Random, Optim;
-        DGP_True = LogNormal(17,7);
+using DataFrames, Plots
+N = 200;           #200 observations = 100 in China + 100 in Italy.
+β_0 = 10.0; β_Italy = -5.0; β_Age = 10.0;
+#
+df = DataFrame(
+    Y =        [
+               ones(8);zeros(80-8);  ones(4);zeros(20-4);  
+               ones(1);zeros(20-1);  ones(12);zeros(80-12);
+    ], 
+    Intercept = ones(N), 
+    Italy     = [zeros(100); ones(100)], 
+    Age = [
+                zeros(80);ones(100-80); 
+                zeros(20);ones(100-20);
+                ],
+    )
     </code>
 </pre>
 
