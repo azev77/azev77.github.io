@@ -1,14 +1,7 @@
+<!-- https://github.com/zlatanvasovic/zlatanvasovic.github.io/edit/gh-pages/blog/2020/06/make-your-julia-package.md -->
 ---
 permalink: /MathInMD/
 ---
-
-
-@def title = "Make your Julia package in 10 minutes"
-@def rss = "Making a package can be a hassle, but in Julia it doesn't have to be so."
-@def rss_pubdate = Date(2020, 6, 13)
-
-Making a package can be a hassle, but in Julia it doesn't have to be so.
-There are some great tools which can help you achieve this task in less than 10 minutes.
 
 Suppose you came up with the formula to calculate n-th term of the famed Fibonacci series.
 Using $ {\varphi = \frac{1 + \sqrt{5}}{2}} $, it turned out to be:
@@ -18,9 +11,6 @@ You want to share it with the world.
 You know Julia's syntax, but not how to turn your function into a package.
 
 ## Using a template
-
-First, you need a package template. In Julia REPL, type `]` and then `add PkgTemplates`.
-It will install the package that provides you with templates.
 
 It also requires you to have `user.name`, `user.email` and `github.user` set in `.gitconfig`.
 If those are missing, you can add them like `git config --global user.name "username"`, executed in your shell.
@@ -142,16 +132,6 @@ end
 
 end
 ```
-
-## Final word
-
-This is a very simplified version of the process, since it's done with a template.
-However, using a template lets you worry not about all the specifics, but about the actual code only.
-
-You should definitely try adding more functions to your package, or building another one.
-Additional template options are explained in [PkgTemplates readme](https://github.com/invenia/PkgTemplates.jl#readme) and [its documentation](https://invenia.github.io/PkgTemplates.jl/).
-
-If you get stuck, you can always post a question on [Julia Discourse](https://discourse.julialang.org/) or [Slack](https://julialang.slack.com/).
 
 ~~~
 <div class="alert alert-warning" role="alert">
