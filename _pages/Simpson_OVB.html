@@ -179,8 +179,8 @@ or
 
 
 
-<p>[1] A bit more info about section one</p>
-<p id="section1">[1] A bit more info about section one</p>
+<p>[1] To derive the bias, slightly abuse notation by stacking a column of ones and $X_{i}$ into a matrix "X", and stack 
+$\beta_{0}$ and $\beta_{xy}$ into $\beta$:</p>
 \begin{align*} 
 \hat{\beta} =& (X'X)^{-1} X'Y 
 \\ 
@@ -191,6 +191,8 @@ or
 E[\hat{\beta}_{xy}|X ] 
 =& 
 \beta + (X'X)^{-1} X'Z \beta_{zy} 
+=& 
+\beta + \delta_{xz} \beta_{zy} 
 \end{align*}
 
 
