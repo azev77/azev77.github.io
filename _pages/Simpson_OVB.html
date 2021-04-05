@@ -143,6 +143,60 @@ Once we condition on age, within each age bracket Italy has a <b>lower</b> proba
 
 
 
+
+<br> <br>
+Next we will show how Simpson's paradox is a special case of OVB. 
+<br>
+Suppose the true model is:
+$$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \nu_{i}$$
+<br>
+Suppose you omit $Z_{i}$ and instead estimate:
+$$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + u_{i} \Rightarrow u_{i} = \beta_{zy} Z_{i} + \nu_{i} $$
+<br>
+Suppose $x_{i}$ predicts $z_{i}$:
+$z_{i} = \delta_{xz} x_{i} + w_{i} \Rightarrow \delta_{xz} = \frac{\sigma_{xz}}{\sigma_{x}^2} = \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} $
+<br>
+Denote the OLS estimate (from equation 2) $\hat{\beta}_{xy}$. 
+We have: $E[\hat{\beta}_{xy}|x_{i}] = \beta_{xy} + \underbrace{\delta_{xz} \beta_{zy}}_{\text{bias}}$
+<br>
+$\text{Bias} = \delta_{xz} \beta_{zy} = 
+\left( \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} \right)
+\times 
+\left( \rho_{zy}\times \frac{\sigma_{y}}{\sigma_{z}} \right)
+=
+\rho_{xz}\times \rho_{zy} \times \frac{\sigma_{y}}{\sigma_{x}} 
+$
+<br>
+The bias is the product of 
+(1) the impact of the treatment on the OV $\delta_{xz}$ 
+and
+(2) the impact of the OV on the outcome $\beta_{zy}$.
+<br>
+The estimate will be unbiased if either (1) the treatment is uncorrelated w/ the OV, 
+or 
+(2) the OV is uncorrelated w/ the outcome.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br> <br>
 <br> <br>
 Let's start with a definition:
 <br>
@@ -180,33 +234,5 @@ Assumption:
 AZ: even w/o causal assumption, still useful for non-causal prediction
 
 <br> <br>
-Suppose the true model is:
-$y_{i} = \beta_{0} + \beta_{xy} x_{i} + \beta_{zy} z_{i} + \nu_{i}$
-<br>
-Suppose you omit $z_{i}$ and instead estimate:
-$y_{i} = \beta_{0} + \beta_{xy} x_{i} + u_{i} \Rightarrow u_{i} = \beta_{zy} z_{i} + \nu_{i} $
-<br>
-Suppose $x_{i}$ predicts $z_{i}$:
-$z_{i} = \delta_{xz} x_{i} + w_{i} \Rightarrow \delta_{xz} = \frac{\sigma_{xz}}{\sigma_{x}^2} = \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} $
-<br>
-Denote the OLS estimate (from equation 2) $\hat{\beta}_{xy}$. 
-We have: $E[\hat{\beta}_{xy}|x_{i}] = \beta_{xy} + \underbrace{\delta_{xz} \beta_{zy}}_{\text{bias}}$
-<br>
-$\text{Bias} = \delta_{xz} \beta_{zy} = 
-\left( \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} \right)
-\times 
-\left( \rho_{zy}\times \frac{\sigma_{y}}{\sigma_{z}} \right)
-=
-\rho_{xz}\times \rho_{zy} \times \frac{\sigma_{y}}{\sigma_{x}} 
-$
-<br>
-The bias is the product of 
-(1) the impact of the treatment on the OV $\delta_{xz}$ 
-and
-(2) the impact of the OV on the outcome $\beta_{zy}$.
-<br>
-The estimate will be unbiased if either (1) the treatment is uncorrelated w/ the OV, 
-or 
-(2) the OV is uncorrelated w/ the outcome.
 <br> <br>
 $X \sim N\left(\mu, \sigma^2 \right)$
