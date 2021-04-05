@@ -82,9 +82,9 @@ $$Y_{i} = \beta_{0} + \varepsilon_{i}$$
     </code>
 </pre>
 
-2. Let's estimate the probability of death from COVID-19 <b>conditional only on country<b>: 
+2. Let's estimate the probability of death from COVID-19 conditional only on country: 
 <br> 
-$$Y_{i} = \beta_{0} + \varepsilon_{i}$$
+$$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \varepsilon_{i}$$
 <pre>
     <code style="display:block; white-space:pre-wrap; background-color: rgb(234,236,238);">
     y = df.Y; X = [ df.Intercept df.Italy];
@@ -94,9 +94,9 @@ $$Y_{i} = \beta_{0} + \varepsilon_{i}$$
     </code>
 </pre>
 
-3. Let's estimate the probability of death from COVID-19 <b>conditional on country and age<b>: 
+3. Let's estimate the probability of death from COVID-19 conditional on country and age: 
 <br> 
-$$Y_{i} = \beta_{0} + \varepsilon_{i}$$
+$$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \varepsilon_{i}$$
 <pre>
     <code style="display:block; white-space:pre-wrap; background-color: rgb(234,236,238);">
     y = df.Y; X = [ df.Intercept df.Italy df.Age];
