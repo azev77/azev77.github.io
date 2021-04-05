@@ -47,8 +47,10 @@ $Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \varepsilon_{i}$
 <br>
 Assume $\beta_{0}=10, \beta_{xy} = -5, \beta_{zy} = 10$ (coefficients are in %). 
 <br>
-Let's generate some artificial data.
-<!-- AZ: Sample code <br><br> -->
+Let's generate some artificial data. 
+Suppose we have N=200 observations (half China, half Italy). 
+Suppose 80% of China's population is young $Z_{i} =0$ and 20% is old $Z_{i} = 1$.
+Suppose 20% of Italy's population is young $Z_{i} =0$ and 80% is old $Z_{i} = 1$.
 <pre>
     <code style="display:block; white-space:pre-wrap; background-color: rgb(234,236,238);">
   using DataFrames, Plots
