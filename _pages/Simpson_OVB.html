@@ -181,11 +181,12 @@ or
 
 <p>[1] A bit more info about section one</p>
 <p id="section1">[1] A bit more info about section one</p>
-$\hat{\beta} = (X'X)^{-1} X'Y =$
 \begin{align*} 
 \hat{\beta} =& (X'X)^{-1} X'Y 
 \\ 
-=& (X'X)^{-1} X'Y 
+=& (X'X)^{-1} X'(X\beta + Z\beta_{zy} + \nu_{i}) 
+\\ 
+=& \beta + (X'X)^{-1} X'Z \beta_{zy} + (X'X)^{-1} X'Z \nu_{i}
 \end{align*}
 
 
