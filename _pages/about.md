@@ -18,6 +18,14 @@ at [Baruch College](https://www.baruch.cuny.edu/).
 * My research studies interactions between real estate markets, financial markets, and the rest of the economy. 
 * I received a PhD from [Wharton](https://doctoral.wharton.upenn.edu/) in 2015 and a Bachelor's degree from [Brandeis](https://www.brandeis.edu/economics/people/index.html) in 2008.
 
+Suppose you came up with the formula to calculate n-th term of the famed Fibonacci series.
+Using $ {\varphi = \frac{1 + \sqrt{5}}{2}} $, it turned out to be:
+$$ \frac{\varphi^n - (-\varphi)^{-n}}{\sqrt{5}} $$
+
+You want to share it with the world.
+You know Julia's syntax, but not how to turn your function into a package.
+
+
 # News
 * March 10, 2021. 
 My paper "Regulating Mortgage Leverage: Fire Sales, Foreclosure Spirals and Pecuniary Externalities" is forthcoming at JRER.
