@@ -27,7 +27,8 @@ The video compares those diagnosed with COVID-19 in China and Italy between Marc
 <u>Outcome by country</u>: people infected with COVID-19 were more likely to survive in China than Italy. 
 <br>
 <u>Outcome by country-age group</u>: at each age bracket, people infected with COVID-19 were more likely to survive in Italy than China.
-<br>
+
+<br> <br>
 Let's illustrate this with a simulation. 
 <br>
 The variables are defined in the table below:
@@ -36,9 +37,12 @@ The variables are defined in the table below:
   \text{Outcome: } Y_{i} & \text{Treatment: } X_{i} & \text{Confounder: } Z_{i}\\ 
 \hline
 Y_{i} \equiv 0 \text{ if person i survives} & X_{i} \equiv 0 \text{ if person i is in China} & Z_{i} \equiv 0 \text{ if person i's age } \leq 59 \\
-Y_{i} \equiv 1 \text{ if person i dies}     & X_{i} \equiv 1 \text{ if person i is in Italy} &  \\
+Y_{i} \equiv 1 \text{ if person i dies}     & X_{i} \equiv 1 \text{ if person i is in Italy} & Z_{i} \equiv 1 \text{ if person i's age } > 59 \\
 \hline
 \end{array}
+
+Let's assume the true data generating process (DGP) is: 
+$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \varepsilon_{i}$
 
 
 <br> <br>
