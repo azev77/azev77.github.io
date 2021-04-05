@@ -110,8 +110,6 @@ P\left( \text{Death from COVID-19 } | \text{ Italy} \right) = 13\%
 \\
 \hline
 \end{array}
-
-
 <br> 
 
 
@@ -176,6 +174,26 @@ and
 The estimate will be unbiased if either (1) the treatment is uncorrelated w/ the OV, 
 or 
 (2) the OV is uncorrelated w/ the outcome.
+<br>
+Alternatively:
+\begin{align*} 
+E[Y_i|\text{ China }] 
+=& 
+E[Y_i|\text{ China, Young}] \times P\left(\text{ China, Young}\right) 
++
+E[Y_i|\text{ China, Old}] \times P\left(\text{ China, Old}\right) 
+\\ 
+12\%
+=& 
+10\% \times 80\%
++
+20\% \times 20\%
+\\ 
+=& 
+8\% + 4\%
+\end{align*}
+
+
 
 
 
