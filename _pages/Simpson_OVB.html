@@ -29,7 +29,8 @@ The video compares those diagnosed with COVID-19 in China and Italy between Marc
 <u>Outcome by country-age group</u>: at each age bracket, people infected with COVID-19 were more likely to survive in Italy than China.
 
 <br> <br>
-Let's illustrate this with a simulation. 
+Let's illustrate this with a simulation in 
+<a href="https://julialang.org/">the Julia Language</a>. 
 <br>
 The variables are defined in the table below:
 \begin{array}{|l|l|l|}
@@ -45,6 +46,21 @@ Let's assume the true data generating process (DGP) is:
 $Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \varepsilon_{i}$
 <br>
 Assume $\beta_{0}=10, \beta_{xy} = -5, \beta_{zy} = 10$ (coefficients are in %). 
+<br>
+Let's generate some artificial data.
+<!-- AZ: Sample code <br><br> -->
+<pre>
+    <code style="display:block; white-space:pre-wrap; background-color: rgb(234,236,238); color: blue;">
+        using Distributions, Random, Optim;
+        DGP_True = LogNormal(17,7);
+    </code>
+</pre>
+
+
+
+
+
+
 
 <br> <br>
 Let's start with a definition:
