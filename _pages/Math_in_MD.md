@@ -1,3 +1,10 @@
+---
+permalink: /MathInMD/
+title: "Math In MD"
+author_profile: true
+---
+
+
 @def title = "Make your Julia package in 10 minutes"
 @def rss = "Making a package can be a hassle, but in Julia it doesn't have to be so."
 @def rss_pubdate = Date(2020, 6, 13)
