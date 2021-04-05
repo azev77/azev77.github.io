@@ -153,8 +153,8 @@ $$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \nu_{i}$$
 Suppose you omit $Z_{i}$ and instead estimate:
 $$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + u_{i} \Rightarrow u_{i} = \beta_{zy} Z_{i} + \nu_{i} $$
 <br>
-Suppose $x_{i}$ predicts $z_{i}$:
-$z_{i} = \delta_{xz} x_{i} + w_{i} \Rightarrow \delta_{xz} = \frac{\sigma_{xz}}{\sigma_{x}^2} = \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} $
+Suppose $X_{i}$ predicts $Z_{i}$:
+$$Z_{i} = \delta_{xz} X_{i} + w_{i} \Rightarrow \delta_{xz} = \frac{\sigma_{xz}}{\sigma_{x}^2} = \rho_{xz}\times \frac{\sigma_{z}}{\sigma_{x}} $$
 <br>
 Denote the OLS estimate (from equation 2) $\hat{\beta}_{xy}$. 
 We have: $E[\hat{\beta}_{xy}|x_{i}] = \beta_{xy} + \underbrace{\delta_{xz} \beta_{zy}}_{\text{bias}}$
