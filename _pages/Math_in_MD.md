@@ -1,6 +1,5 @@
 ---
 permalink: /MathInMD/
-title: "Math In MD"
 ---
 
 
