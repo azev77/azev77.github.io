@@ -18,8 +18,10 @@ at [Baruch College](https://www.baruch.cuny.edu/).
 * My research studies interactions between real estate markets, financial markets, and the rest of the economy. 
 * I received a PhD from [Wharton](https://doctoral.wharton.upenn.edu/) in 2015 and a Bachelor's degree from [Brandeis](https://www.brandeis.edu/economics/people/index.html) in 2008.
 
-In the canonical model of asset pricing, house prices are equal to the present discounted value 
-of future rents (or shelter service flows for owner occupiers)
+# Research Agenda
+* In the canonical model of asset pricing, house prices are equal to the present discounted value 
+of future rents (or shelter service flows for owner-occupiers):
+
 $$ p_{t} = \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} }{ (1+r)^{i} } $$
 
 
