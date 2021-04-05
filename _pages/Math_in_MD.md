@@ -1,7 +1,9 @@
-<!-- https://github.com/zlatanvasovic/zlatanvasovic.github.io/edit/gh-pages/blog/2020/06/make-your-julia-package.md -->
 ---
 permalink: /MathInMD/
 ---
+
+<!-- https://github.com/zlatanvasovic/zlatanvasovic.github.io/edit/gh-pages/blog/2020/06/make-your-julia-package.md -->
+
 
 Suppose you came up with the formula to calculate n-th term of the famed Fibonacci series.
 Using $ {\varphi = \frac{1 + \sqrt{5}}{2}} $, it turned out to be:
