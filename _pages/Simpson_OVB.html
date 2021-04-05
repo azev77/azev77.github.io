@@ -71,7 +71,7 @@ Suppose 20% of Italy's population is young $Z_{i} =0$ and 80% is old $Z_{i} = 1$
     </code>
 </pre>
 
-1. Let's estimate the unconditional probability of death from COVID-19 in this data: 
+1. Let's estimate the <b>unconditional<b> probability of death from COVID-19 in this data: 
 <br> 
 $$Y_{i} = \beta_{0} + \varepsilon_{i}$$
 <pre>
@@ -84,7 +84,7 @@ $$Y_{i} = \beta_{0} + \varepsilon_{i}$$
 
 2. Let's estimate the probability of death from COVID-19 conditional only on country: 
 <br> 
-$$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \beta_{zy} Z_{i} + \varepsilon_{i}$$
+$$Y_{i} = \beta_{0} + \beta_{xy} X_{i} + \varepsilon_{i}$$
 <pre>
     <code style="display:block; white-space:pre-wrap; background-color: rgb(234,236,238);">
     y = df.Y; X = [ df.Intercept df.Italy];
