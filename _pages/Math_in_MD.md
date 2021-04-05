@@ -1,7 +1,6 @@
 ---
 permalink: /MathInMD/
 title: "Math In MD"
-author_profile: true
 ---
 
 
