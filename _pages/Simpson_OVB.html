@@ -61,16 +61,12 @@ Suppose 20% of Italy's population is young $Z_{i} =0$ and 80% is old $Z_{i} = 1$
   β_0 = 10.0; β_Italy = -5.0; β_Age = 10.0;
   #
   df = DataFrame(
-      Y =        [
-                 ones(8);zeros(80-8);  ones(4);zeros(20-4);  
-                 ones(1);zeros(20-1);  ones(12);zeros(80-12);
-      ], 
+      Y =        [ones(8);zeros(80-8);  ones(4);zeros(20-4);  
+                  ones(1);zeros(20-1);  ones(12);zeros(80-12);], 
       Intercept = ones(N), 
       Italy     = [zeros(100); ones(100)], 
-      Age = [
-                  zeros(80);ones(100-80); 
-                  zeros(20);ones(100-20);
-                  ],
+      Age = [zeros(80);ones(100-80); 
+             zeros(20);ones(100-20);],
       )
     </code>
 </pre>
