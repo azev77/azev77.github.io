@@ -56,6 +56,7 @@ D\left( g(t) e^{-\lambda t} \right) &= g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{
                                     &= 0                                                           & \text{Algebra} 
 \end{align*}
 $$
+<br/>
 $\Rightarrow$ $D\left( g(t) e^{-\lambda t} \right) = 0$
 <br/>
 $\Rightarrow$ $g(t) e^{-\lambda t} = c $
