@@ -49,9 +49,17 @@ Then:
 <br/>
 $$
 \begin{align*}
-f &= g
+D\left( g(t) e^{-\lambda t} \right) 
+&= 
+g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t}
+& 
+\text{product rule}
 \\
-f &= g
+D\left( g(t) e^{-\lambda t} \right) 
+&= 
+g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t}
+& 
+\text{product rule}
 \end{align*}
 $$
 
