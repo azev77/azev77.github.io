@@ -22,10 +22,10 @@ $T(v) = \lambda v$.
 **Example**: eigenvectors/eigenvalues of the derivative operator
 <br/>
 The derivative operator $D: C^{\infty} \to C^{\infty}$ 
-over the vector space of smooth functions over the field of real numbers. 
+over the vector space of smooth functions over the field of real numbers is a linear function:
 <br/>
-Verify $D$ is a linear function 
-$D\left(\alpha f + \beta g \right) = \alpha D\left( f \right) + \beta D\left( g \right)$ for $\alpha, \beta \in \mathbb{R}, f,g \in C^{\infty}$.
+$D\left(\alpha f + \beta g \right) = \alpha D\left( f \right) + \beta D\left( g \right)$ for $\alpha, \beta \in \mathbb{R}, f,g \in C^{\infty}$
+(verify this).
 <br/>
 **Proposition**: 
 the set of eigenvalues of $D$ is  $ \left( \lambda \in \mathbb{R}  \right) $
@@ -56,9 +56,12 @@ D\left( g(t) e^{-\lambda t} \right) &= g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{
                                     &= 0                                                           & \text{Algebra} 
 \end{align*}
 $$
-$D\left( g(t) e^{-\lambda t} \right) \Rightarrow g(t) e^{-\lambda t} = c \Rightarrow g(t) = c e^{\lambda t} $ 
-this contradicts our assumption that $g(t) \neq f_0 e^{\lambda t}$
-$\blacksquare$.
+$\Rightarrow$ $D\left( g(t) e^{-\lambda t} \right) = 0$
+<br/>
+$\Rightarrow$ $g(t) e^{-\lambda t} = c $
+<br/>
+$\Rightarrow$ $g(t) = c e^{\lambda t} $
+which contradicts our assumption that $g(t) \neq f_0 e^{\lambda t}$ $\blacksquare$.
 
 
 
