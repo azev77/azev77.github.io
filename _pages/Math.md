@@ -18,6 +18,8 @@ and an
 **eigenvalue** is a scalar $\lambda \in F$ 
 such that 
 $T(v) = \lambda v$. 
+<br/> 
+The fixed points of a linear function are the eigenvectors corresponding to the eigenvalue $\lambda =1$.
 <br/> <br/>
 **Example**: eigenvectors/eigenvalues of the derivative operator
 <br/>
@@ -63,7 +65,12 @@ $\Rightarrow$ $g(t) e^{-\lambda t} = c $
 <br/>
 $\Rightarrow$ $g(t) = c e^{\lambda t} $
 which contradicts our assumption that $g(t) \neq f_0 e^{\lambda t}$ $\blacksquare$.
+<br/>
+It follows that the fixed points of the differential operator take the form 
+$f(t)=f_0 e^{t}$.
 
+
+More examples at [this link](http://people.math.gatech.edu/~meyer/MA6701/module18.pdf).
 
 
 
