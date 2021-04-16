@@ -26,3 +26,8 @@ over the vector space of smooth functions over the field of real numbers.
 <br/>
 Verify $D$ is a linear function 
 $D\left(\alpha f + \beta g \right) = \alpha D\left( f \right) + \beta D\left( g \right)$ for $\alpha, \beta \in \mathbb{R}, f,g \in C^{\infty}$.
+<br/>
+Proposition: 
+the eigenvectors of $D$ is the 1-parameter family of functions $\{ f(t)=f_0 e^{\lambda t}, f_{0} \in \mathbb{R} \}$ 
+and 
+the eigenvalues of $D$ is the set $\{ \lambda \in \mathbb{R} \}$.
