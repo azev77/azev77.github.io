@@ -1,21 +1,8 @@
 ---
-title: "Math results"
-date: 2021-04-16
 permalink: /Math/
-comments: true
-output:
-  html_document:
-    keep_tex: yes
-    number_sections: true
-    fig_caption: true
-    toc: true
-    fig_width: 7
-    fig_height: 4.5
-    theme: cosmo
-    highlight: tango
-    code_folding: show 
-tags:
-  - Mathematics
+title: "Math"
+excerpt: "Math"
+author_profile: true
 ---
 
 Eigenvalues of general linear functions
