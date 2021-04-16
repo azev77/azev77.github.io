@@ -37,14 +37,23 @@ the correspoding set of eigenvectors of $D$ is $ \left(  f(t)=f_0 e^{\lambda t},
 $\Rightarrow$ it is straightforward to verify that 
 $D(f) = \lambda f$ for $\lambda \in \mathbb{R}$ and $f(t)=f_0 e^{\lambda t}$.
 <br/>
+$D(f) = f'(t) = \lambda f_0 e^{\lambda t} = \lambda f(t)$ $\blacksquare$.
+<br/>
 $\Leftarrow$
 Suppose there exists a function $g(t) \neq f_0 e^{\lambda t}$ 
 such that $D(g) = \lambda g$.
 <br/>
-Then
+Then $g'(t) = \lambda g(t)$
 <br/>
-
-
+Then: 
+<br/>
+$$
+\begin{align*}
+f &= g
+\\
+f &= g
+\end{align*}
+$$
 
 
 
