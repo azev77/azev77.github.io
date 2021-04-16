@@ -1,7 +1,7 @@
 ---
 title: "Math results"
 date: 2021-04-16
-permalink: /posts/2021/04/Math/
+permalink: /Math/
 comments: true
 output:
   html_document:
