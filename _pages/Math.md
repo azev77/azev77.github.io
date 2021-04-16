@@ -28,7 +28,10 @@ Verify $D$ is a linear function
 $D\left(\alpha f + \beta g \right) = \alpha D\left( f \right) + \beta D\left( g \right)$ for $\alpha, \beta \in \mathbb{R}, f,g \in C^{\infty}$.
 <br/>
 **Proposition**: 
-the set of eigenvalues of $D$ is  $\left \{ \lambda \in \mathbb{R} \right\}$
+the set of eigenvalues of $D$ is  $ \{ \lambda \in \mathbb{R}  \} $
 and
-the correspoding eigenvectors of $D$ \{$ f(t)=f_0 e^{\lambda t}, f_{0} \in \mathbb{R}$ \} 
+the correspoding set of eigenvectors of $D$ is $ \{ f(t)=f_0 e^{\lambda t}, f_{0} \in \mathbb{R} \}$.
+<br/>
+**Proof**: 
+
  
