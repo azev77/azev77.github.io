@@ -49,17 +49,11 @@ Then:
 <br/>
 $$
 \begin{align*}
-D\left( g(t) e^{-\lambda t} \right) 
-&= 
-g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t}
-& 
-\text{product rule}
+D\left( g(t) e^{-\lambda t} \right) &= g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t} & \text{product rule}
 \\
-D\left( g(t) e^{-\lambda t} \right) 
-&= 
-g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t}
-& 
-\text{product rule}
+                                    &= \lambda g(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t} & \text{Assumed } g'(t) = \lambda g(t)
+\\
+                                    &= \lambda g(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t} & \text{Assumed } g'(t) = \lambda g(t)
 \end{align*}
 $$
 
