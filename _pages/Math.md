@@ -18,3 +18,11 @@ and an
 **eigenvalue** is a scalar $\lambda \in F$ 
 such that 
 $T(v) = \lambda v$. 
+<br/>
+Example: eigenvectors/eigenvalues of the derivative operator
+<br/>
+The derivative operator $D: C^{\infty} \to C^{\infty}$ 
+over the vector space of smooth functions over the field of real numbers. 
+<br/>
+Verify $D$ is a linear function 
+$D\left(\alpha f + \beta g \right) = \alpha D\left( f \right) + \beta D\left( g \right)$ for $\alpha, \beta \in \mathbb{R}, f,g \in C^{\infty}$.
