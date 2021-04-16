@@ -18,8 +18,8 @@ and an
 **eigenvalue** is a scalar $\lambda \in F$ 
 such that 
 $T(v) = \lambda v$. 
-<br/>
-Example: eigenvectors/eigenvalues of the derivative operator
+<br/> <br/>
+**Example**: eigenvectors/eigenvalues of the derivative operator
 <br/>
 The derivative operator $D: C^{\infty} \to C^{\infty}$ 
 over the vector space of smooth functions over the field of real numbers. 
@@ -27,7 +27,8 @@ over the vector space of smooth functions over the field of real numbers.
 Verify $D$ is a linear function 
 $D\left(\alpha f + \beta g \right) = \alpha D\left( f \right) + \beta D\left( g \right)$ for $\alpha, \beta \in \mathbb{R}, f,g \in C^{\infty}$.
 <br/>
-Proposition: 
-the eigenvectors of $D$ is the 1-parameter family of functions $\{ f(t)=f_0 e^{\lambda t}, f_{0} \in \mathbb{R} \}$ 
-and 
-the eigenvalues of $D$ is the set $\{ \lambda \in \mathbb{R} \}$.
+**Proposition**: 
+the eigenvalues of $D$ is the set $\left\{ \lambda \in \mathbb{R} \right\}$
+and
+the correspoding eigenvectors of $D$ $\left\{ f(t)=f_0 e^{\lambda t}, f_{0} \in \mathbb{R} \right\}$ 
+ 
