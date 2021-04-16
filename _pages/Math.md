@@ -53,10 +53,12 @@ D\left( g(t) e^{-\lambda t} \right) &= g'(t) e^{-\lambda t} + (-\lambda)g(t) e^{
 \\
                                     &= \lambda g(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t} & \text{Assumed } g'(t) = \lambda g(t)
 \\
-                                    &= \lambda g(t) e^{-\lambda t} + (-\lambda)g(t) e^{-\lambda t} & \text{Assumed } g'(t) = \lambda g(t)
+                                    &= 0                                                           & \text{Algebra} 
 \end{align*}
 $$
-
+$D\left( g(t) e^{-\lambda t} \right) \Rightarrow g(t) e^{-\lambda t} = c \Rightarrow g(t) = c e^{\lambda t} $ 
+this contradicts our assumption that $g(t) \neq f_0 e^{\lambda t}$
+$\blacksquare$.
 
 
 
