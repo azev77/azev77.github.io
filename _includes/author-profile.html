@@ -28,6 +28,9 @@
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
+      {% if author.arxiv %}
+        <li><a href="https://arxiv.org/search/econ?searchtype=author&query=Zevelev%2C+A+A"><i class="fab fa-fw fa-arxiv" aria-hidden="true"></i> Arxiv</a></li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
