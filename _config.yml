@@ -6,6 +6,11 @@
 # PR to change orcid logo color: AZ not sure it worked for me...
 #https://github.com/academicpages/academicpages.github.io/pull/466/files#diff-f87452b32e6180b23272ef08937b4b3895f6c6b854838d8ed203a8b6877dedbe
 
+#arXiv: 
+#1: in _config.yml under "Author":                  arxiv            : "https://arxiv.org/search/econ?searchtype=author&query=Zevelev%2C+A+A"
+#2: in _includes/author-profile.html:               a
+#from: https://github.com/mgonch/mgonch.github.io/blob/master/_includes/author-profile.html
+
 # talkmap
 
 # code blocks look better now thanks to @alcantarar: https://github.com/alcantarar/alcantarar.github.io/commit/e924f60782fe892d5c510f3ef8c1b38d30dbe7b3
