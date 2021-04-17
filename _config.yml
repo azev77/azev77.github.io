@@ -1,3 +1,6 @@
+# AZ to do 
+# Add SSRN icon w/ clickable link
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -82,7 +85,9 @@ analytics:
 author:
   name             : "Albert Alex Zevelev"
   avatar           : "profile.png"
-  bio              : Assistant Professor, <a href="https://zicklin.baruch.cuny.edu/Department/real-estate-faculty/">Real Estate</a>, Zicklin School of Business, Baruch College, CUNY
+  bio              : I am an assistant professor at the Zicklin School of Business. 
+  #If you need to reach me, please email me at Albert.Zevelev at baruch dot cuny dot edu. 
+  # Assistant Professor, <a href="https://zicklin.baruch.cuny.edu/Department/real-estate-faculty/">Real Estate</a>, Zicklin School of Business, Baruch College, CUNY
   location         : "New York, New York"
   employer         : # Zicklin School of Business, Baruch College, CUNY
   pubmed           :   
@@ -115,7 +120,7 @@ author:
   xing             : # career-oriented social networking
   youtube          :
   wikipedia        :
-  ssrn             : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609
+  # ssrn             : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609
 
 
 # Reading Files
