@@ -90,29 +90,29 @@ author:
   email            :  # 
   researchgate     :  "https://www.researchgate.net/profile/Albert_Alex_Zevelev"   
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  bitbucket        : # Git-based source code repository hosting service
+  codepen          : # test & showcase HTML, CSS and JavaScript code snippets
+  dribbble         : # self-promotion & social networking platform for digital designers & creatives
+  flickr           : # image hosting and video hosting service
+  facebook         : # AZ don't want personal network
+  foursquare       : # location data platform for understanding how people move through the real world
   github           : azev77
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
+  google_plus      : # Gone
+  keybase          : #key directory that maps social media identities to encryption keys 
+  instagram        : # AZ don't want personal network
+  impactstory      : https://profiles.impactstory.org/u/0000-0001-5294-655X # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           : # world's largest online music service
   linkedin         : albert-alex-zevelev-7598544/
   orcid            : https://orcid.org/0000-0001-5294-655X  # "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
+  pinterest        : # image sharing service for saving/discovery info on internet using images
+  soundcloud       : # online audio distribution platform
   stackoverflow    : 12538897/albert-zevelev #"https://economics.stackexchange.com/users/31117/albert-zevelev"
-  steam            :
-  tumblr           :
+  steam            : # playing, discussing, and creating games
+  tumblr           : # microblogging and social networking
   twitter          : AlexZevelev
-  vine             :
-  weibo            :
-  xing             :
+  vine             : # social networking short-form video hosting service
+  weibo            : # Chinese microblogging website
+  xing             : # career-oriented social networking
   youtube          :
   wikipedia        :
   ssrn             : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609
