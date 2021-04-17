@@ -113,6 +113,7 @@ author:
   # Assistant Professor, <a href="https://zicklin.baruch.cuny.edu/Department/real-estate-faculty/">Real Estate</a>, Zicklin School of Business, Baruch College, CUNY
   location         : "New York, New York"
   arxiv            : "https://arxiv.org/search/econ?searchtype=author&query=Zevelev%2C+A+A"
+  ssrn             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1089184"
   employer         : # Zicklin School of Business, Baruch College, CUNY
   pubmed           :   
   googlescholar    : "https://scholar.google.com/citations?user=MsNmpSQAAAAJ&hl=en&oi=ao"
@@ -144,8 +145,7 @@ author:
   xing             : # career-oriented social networking
   youtube          :
   wikipedia        :
-  # ssrn             : https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609
-
+  # 
 
 # Reading Files
 include:
