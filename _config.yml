@@ -1,6 +1,6 @@
 #https://jayrobwilliams.com/posts/2020/07/customizing-website/
 
-#To add SSRN/arXiv etc icons from Academicons
+#How to add SSRN/arXiv etc icons from Academicons
 #1: download latest from: http://jpswalsh.github.io/academicons/
 #2: drag downloaded files in the "css" folder into the folder "main/assets/css"
 #3: drag downloaded files in the "fonts" folder into the folder "main/assets/fonts"
@@ -10,21 +10,17 @@
 #         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw"></i></i>  arXiv</a></li>
 #       {% endif %}
 
-
-# AZ to do 
-# talkmap
-
-# PR to change orcid logo color: AZ not sure it worked for me...
-#https://github.com/academicpages/academicpages.github.io/pull/466/files#diff-f87452b32e6180b23272ef08937b4b3895f6c6b854838d8ed203a8b6877dedbe
-
-
-
 # code blocks look better now thanks to @alcantarar: https://github.com/alcantarar/alcantarar.github.io/commit/e924f60782fe892d5c510f3ef8c1b38d30dbe7b3
 # also look at: https://github.com/alegione/alegione.github.io/commit/c0342e136685927e1dc476bf5d27883b353b027a
 #
 
-#Google Scholar Plot: https://alegione.github.io/2020/ScholarPlot
-#Word cloud
+
+# AZ to do 
+#1 Talkmap
+#2 PR to change orcid logo color: AZ not sure it worked for me...
+#https://github.com/academicpages/academicpages.github.io/pull/466/files#diff-f87452b32e6180b23272ef08937b4b3895f6c6b854838d8ed203a8b6877dedbe
+#3 Google Scholar Plot: https://alegione.github.io/2020/ScholarPlot
+#4 Word cloud
 #https://alegione.github.io/2020/OnlineResearchPresence-Twitter
 
 #look at: https://www.ryan-alcantara.com/projects/p89_random_forest_trees/
@@ -115,6 +111,14 @@ author:
   name             : "Albert Alex Zevelev"
   avatar           : "profile.png"
   bio              : I am an assistant professor at the Zicklin School of Business. 
+  #I am interesting in 
+  My interests include 
+  Household Finance, Housing, and Macro Finance. #Machine Learning,
+  #
+  I work on methods that exploit 
+  non-causal machine learning algorithms 
+  to improve causal inference.
+  #
   #If you need to reach me, please email me at Albert.Zevelev at baruch dot cuny dot edu. 
   # Assistant Professor, <a href="https://zicklin.baruch.cuny.edu/Department/real-estate-faculty/">Real Estate</a>, Zicklin School of Business, Baruch College, CUNY
   location         : "New York, New York"
