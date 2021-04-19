@@ -30,7 +30,9 @@ at [Baruch College](https://www.baruch.cuny.edu/).
 
 # Research Agenda
 * In the canonical model of asset pricing, house prices equal the present value 
+<!--
 #are equal to the present discounted value 
+-->
 of future net rents (or shelter service flows for owner-occupiers):
 * $$ \begin{align*}  
 p_{t} &= \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} }{ (1+r)^{i} } 
