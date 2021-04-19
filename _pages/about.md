@@ -60,6 +60,10 @@ is enjoyed by owners but not by renters.
 * The ability to 
 [protect home equity from unsecured creditors](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3763242) 
 is enjoyed by owners but not by renters.
+* Incorporating these indirect service flows (denoted $X_{t}$) can help us better understand house price movements.
+* $$ \begin{align*}  
+p_{t} &= \mathbb{E}_{t} \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} + X_{t+i}}{ (1+r)^{i} } 
+\end{align*} $$
 
 
 # News
