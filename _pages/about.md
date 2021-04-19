@@ -1,6 +1,17 @@
 ---
 permalink: /
 author_profile: true
+output:
+  html_document:
+    keep_tex: yes
+    number_sections: true
+    fig_caption: true
+    toc: true
+    fig_width: 7
+    fig_height: 4.5
+    theme: cosmo
+    highlight: tango
+    code_folding: show 
 redirect_from: 
   - /about/
   - /about.html
