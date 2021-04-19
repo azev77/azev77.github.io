@@ -35,11 +35,17 @@ at [Baruch College](https://www.baruch.cuny.edu/).
 -->
 of future net rents (or shelter service flows for owner-occupiers):
 * $$ \begin{align*}  
-p_{t} &= \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} }{ (1+r)^{i} } 
+p_{t} &= \mathbb{E}_{t} \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} }{ (1+r)^{i} } 
 \end{align*} $$
+* In this model house prices move due to either changes in expected rents or discount rates.   
 * My research studies benefits of home ownership which are consumed by owners but not by renters. 
-* The ability to [pledge a home a collateral](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609) (along with the tax benefits) is enjoyed by owners but not by renters.
-* The ability to [protect home equity from unsecured creditors](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3763242) is enjoyed by owners but not by renters.
+* The ability to 
+[pledge a home a collateral](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2815609) 
+(along with the tax benefits) 
+is enjoyed by owners but not by renters.
+* The ability to 
+[protect home equity from unsecured creditors](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3763242) 
+is enjoyed by owners but not by renters.
 
 
 # News
