@@ -6,7 +6,8 @@ redirect_from:
   - /about.html
 ---
 
-<!-- include Title "About me"
+<!-- 
+include Title "About me"
 ---
 permalink: /
 title: "About me"
