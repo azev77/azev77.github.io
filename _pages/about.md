@@ -34,6 +34,7 @@ at [Baruch College](https://www.baruch.cuny.edu/).
 #are equal to the present discounted value 
 -->
 of future net rents (or shelter service flows for owner-occupiers):
+$p_{t} = \mathbb{E}_{t} \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} }{ (1+r)^{i} }$
 * $$ \begin{align*}  
 p_{t} &= \mathbb{E}_{t} \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} }{ (1+r)^{i} } 
 \end{align*} $$
