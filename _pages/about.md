@@ -67,9 +67,7 @@ p_{t} &= \mathbb{E}_{t} \sum_{i=1}^{i=\infty} \frac{ \text{Rent}_{t+i} + X_{t+i}
 
 
 # News
-* March 10, 2021. 
-My paper "Regulating Mortgage Leverage: Fire Sales, Foreclosure Spirals and Pecuniary Externalities" is forthcoming at JRER.
-* October 9, 2020. 
-My paper "Does Collateral Value Affect Asset Prices? Evidence from a Natural Experiment in Texas" is forthcoming at [RFS](https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaa117/5920333?redirectedFrom=fulltext).
+* September, 2021. 
+My paper "Does Collateral Value Affect Asset Prices? Evidence from a Natural Experiment in Texas" was published in [RFS](https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaa117/5920333?redirectedFrom=fulltext).
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fazev77.github.io&count_bg=%23FFFFFF&title_bg=%23FFFFFF&icon=&icon_color=%23FFFFFF&title=AAZ&edge_flat=false)](https://hits.seeyoufarm.com)
