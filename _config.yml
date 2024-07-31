@@ -58,7 +58,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Albert Alex Zevelev"
-description              : &description "Assistant Professor, Zicklin School of Business"
+description              : &description "Assistant Professor of Finance, Fowler College of Business"
 url                      : https://azev77.github.io    # base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "azev77/azev77.github.io"
@@ -134,10 +134,10 @@ author:
   I work on methods that exploit non-causal machine learning techniques to improve causal inference."
   #I am an assistant professor at the Zicklin School of Business. My interests include Household Finance, Housing, and Macro Finance. 
   #I also work on methods that exploit non-causal machine learning techniques to improve causal inference. 
-  location         : "New York, New York"
+  location         : "San Diego, California"
   arxiv            : "https://arxiv.org/search/econ?searchtype=author&query=Zevelev%2C+A+A"
   ssrn             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=1089184"
-  employer         : "Baruch College" #"Assistant Professor, Zicklin School of Business, Baruch College, CUNY"
+  employer         : "Finance Department, Fowler College of Busness, SDSU" #"Assistant Professor, Zicklin School of Business, Baruch College, CUNY"
   pubmed           :   
   googlescholar    : "https://scholar.google.com/citations?user=MsNmpSQAAAAJ&hl=en&oi=ao"
   email            :  # 
